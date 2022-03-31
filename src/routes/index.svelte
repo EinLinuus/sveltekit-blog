@@ -19,7 +19,7 @@ export let posts;
 </svelte:head>
 
 <div>
-	<h1>SvelteKit Blog</h1>
+	<h1>SvelteKit Blog!</h1>
 	<p class="info">{posts.length} posts.</p>
 	{#each posts as post}
 		<a href={`${base}/blog/${post.slug}`}>
